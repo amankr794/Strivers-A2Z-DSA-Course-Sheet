@@ -16,3 +16,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern – 12: Number Crown Pattern](P12.png)
 ![Pattern – 13: Increasing Number Triangle Pattern](P13.png)
 ![attern-14: Increasing Letter Triangle Pattern](P14.png)
+![Pattern-15: Reverse Letter Triangle Pattern](P15.png)
