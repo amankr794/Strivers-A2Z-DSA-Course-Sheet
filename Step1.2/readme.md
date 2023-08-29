@@ -18,3 +18,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![attern-14: Increasing Letter Triangle Pattern](P14.png)
 ![Pattern-15: Reverse Letter Triangle Pattern](P15.png)
 ![Pattern – 16: Alpha-Ramp Pattern](P16.png)
+![Pattern – 17: Alpha-Hill Pattern](P17.png)
