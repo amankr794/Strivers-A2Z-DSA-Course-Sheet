@@ -21,3 +21,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern – 17: Alpha-Hill Pattern](P17.png)
 ![Pattern-18: Alpha-Triangle Pattern](P18.png)
 ![Pattern-19: Symmetric-Void Pattern](P19.png)
+![Pattern – 20: Symmetric-Butterfly Pattern](P20.png)
