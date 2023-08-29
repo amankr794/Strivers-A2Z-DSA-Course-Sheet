@@ -9,3 +9,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern-5: Inverted Right Pyramid](P5.png)
 ![Pattern – 6: Inverted Numbered Right Pyramid](P6.png)
 ![Pattern – 7: Star Pyramid](P7.png)
+![Pattern – 8: Inverted Star Pyramid](P8.png)
