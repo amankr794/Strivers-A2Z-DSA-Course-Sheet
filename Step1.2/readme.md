@@ -23,3 +23,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern-19: Symmetric-Void Pattern](P19.png)
 ![Pattern – 20: Symmetric-Butterfly Pattern](P20.png)
 ![Pattern – 21: Hollow Rectangle Pattern](Screenshot-2023-01-02-at-1.54.55-PM-1.webp)
+![Pattern – 22: The Number Pattern](P22.png)
