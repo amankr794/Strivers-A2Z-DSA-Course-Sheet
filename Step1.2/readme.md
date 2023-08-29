@@ -14,3 +14,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern – 10: Half Diamond Star Pattern](P10.png)
 ![Pattern – 11: Binary Number Triangle Pattern](P11.png)
 ![Pattern – 12: Number Crown Pattern](P12.png)
+![Pattern – 13: Increasing Number Triangle Pattern](P13.png)
