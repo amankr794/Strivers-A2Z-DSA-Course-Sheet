@@ -20,3 +20,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern – 16: Alpha-Ramp Pattern](P16.png)
 ![Pattern – 17: Alpha-Hill Pattern](P17.png)
 ![Pattern-18: Alpha-Triangle Pattern](P18.png)
+![Pattern-19: Symmetric-Void Pattern](P19.png)
