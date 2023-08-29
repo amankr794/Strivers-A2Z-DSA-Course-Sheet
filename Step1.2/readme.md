@@ -11,3 +11,4 @@ Must do Pattern Problems before starting DSA This article contains all the impor
 ![Pattern – 7: Star Pyramid](P7.png)
 ![Pattern – 8: Inverted Star Pyramid](P8.png)
 ![Pattern – 9: Diamond Star Pattern](P9.png)
+![Pattern – 10: Half Diamond Star Pattern](P10.png)
