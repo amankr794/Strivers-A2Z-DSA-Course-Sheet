@@ -37,3 +37,89 @@ long reverseBits(long n) {
     }
     return result;
 }
+
+
+// leetcode( Reverse Integer )
+// class Solution {
+// public:
+//     int reverse(int x) {
+       
+//        int ans=0;
+//        while(x!=0){
+           
+//            int digit = x % 10; 
+           
+//            if((ans > INT_MAX/10 )|| (ans < INT_MIN/10 ))
+//                 return 0;
+
+//            ans = (ans * 10) + digit;
+//            x = x/10;
+//        } 
+      
+//         return ans;
+//     }
+// };
+
+
+// or
+class Solution {
+public:
+    int reverse(int x) {
+       
+    //1st Approach
+    //    int ans=0;
+    //    while(x!=0){
+           
+        
+        //    int digit = x % 10; 
+
+        //    if((ans > INT_MAX/10 )|| (ans < INT_MIN/10 ))
+        //         return 0;
+
+        //    ans = (ans * 10) + digit;
+        //    x = x/10;
+
+        
+        //2nd Approach
+        
+        long ans=0;    
+       
+        while(x){
+         ans = ans*10 + x%10; // find remainder and add its to ans
+         x = x/10;     // Update the value of x
+        }
+       
+        if(ans>INT_MAX || ans<INT_MIN) 
+            return 0; // checking 32 bit range if ans is outside the range then return 0 
+
+         return ans;  // if ans in the 32 bit range return ans
+    }
+        
+
+
+// or
+class Solution {
+public:
+    int reverse(int x) {
+
+        int ans=0;
+
+        if(x<=INT_MIN)
+            return 0;
+
+        bool isNeg=false;
+        if(x<0){
+            x=-x;
+            isNeg=true;
+        }
+
+        while(x>0){
+            int digit=x%10;
+            if(ans>INT_MAX/10)
+                return 0;
+            ans=ans*10+digit;
+            x/=10;
+        }
+        return isNeg?-ans:ans;
+    }
+};
