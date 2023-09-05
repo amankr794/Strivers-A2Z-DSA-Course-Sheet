@@ -1,4 +1,6 @@
 /****** Brute force approach ******/
+/*Approach: Running the for loop till the number (Using Iterative solution) */
+
 // #include<iostream>
 // using namespace std;
 
@@ -31,6 +33,8 @@
 
 
 /****** Optimal Approach ******/
+/* Approach: Running the for loop till the square root of the number */
+
 // #include<bits/stdc++.h>
 // #include<iostream>
 // #include<cmath>
