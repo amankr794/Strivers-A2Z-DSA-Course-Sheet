@@ -75,28 +75,28 @@
 */
 
 //Code:
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
-void func(int i, int n){
+// void func(int i, int n){
    
-   // Base Condition.
-   if(i>n) return;
-   cout<<"Aman"<<endl;
+//    // Base Condition.
+//    if(i>n) return;
+//    cout<<"Aman"<<endl;
 
-   // Function call to print till i increments.
-   func(i+1,n);
+//    // Function call to print till i increments.
+//    func(i+1,n);
 
-}
+// }
 
-int main(){
+// int main(){
   
-  // Here, let’s take the value of n to be 5.
-  int n = 5;
-  func(1,n);
-  return 0;
+//   // Here, let’s take the value of n to be 5.
+//   int n = 5;
+//   func(1,n);
+//   return 0;
 
-}
+// }
 
 /*
     T.C: O(n) { Since the function is being called n times, and for each function, 
@@ -106,3 +106,38 @@ int main(){
     S.C:O(n)   { In the worst case, the recursion stack space would be full with all 
                  the function calls waiting to get completed and that would make it an O(N) recursion stack space }.
 */
+
+
+
+
+
+//https://www.codingninjas.com/studio/problems/-print-n-times_8380707?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+void insertStringVector(vector<string>&arr, int i, int n){
+
+	//Base Case
+	if(i>n)
+		return;
+
+	// insert string into arr
+	arr.push_back("Coding Ninjas");
+
+	// Function call to insert string in vector arr till i increments(i.e till i becomes greater than n).
+	insertStringVector(arr,i+1,n);
+	
+
+}
+
+vector<string> printNTimes(int n) {
+	// Write your code here.
+	
+	vector<string>arr;
+
+	int i=1;
+
+	insertStringVector(arr,i,n);
+
+	// This arr vector contains the string "Coding Ninja" n times
+	return arr;
+
+}
